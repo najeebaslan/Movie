@@ -11,7 +11,8 @@ Effect<HistoryState> buildEffect() {
     Lifecycle.build: _didUpdateWidget,
   });
 }
-
+//git push -u origin master
+//git branch -M master
 void _onAction(Action action, Context<HistoryState> ctx) {}
 
 void _onInit(Action action, Context<HistoryState> ctx) async {
